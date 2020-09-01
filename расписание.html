@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>ФМФ</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+			<div id="header">
+				<div id="logo">
+					<h1>
+						<a href="index.html">
+							ФИЗИКО-МАТЕМАТИЧЕСКИЙ ФАКУЛЬТЕТ
+						</a>
+					</h1>
+				</div>
+			</div>
+
+<div id="wrapper">
+	<div id='wrapper-bgbtm' style='background: url(images/бгпу.png) no-repeat center top'>
+					<div id="content" style="">
+					
+						<div id="menu">
+							<a href="index.html" title='Главная страница' class='shapka_link full_width'>Главная</a>
+							<a href="fmf.html" class='shapka_link full_width'>О факультете</a>
+							<a href="Kontakt.html" class='shapka_link full_width'>Контакты</a>
+						</div>
+						
+						<div class='content1'>
+						
+							<div class="post full_width">
+								<h3 class="title"><a href="https://bspu.ru/unit/84/timetable">Расписание </a></h3>
+							</div>	
+						
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Понедельник</a>
+								</div>
+								<img src="images/понедельник.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>					
+						
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Вторник</a>
+								</div>
+								<img src="images/вторник.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>									
+
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Среда</a>
+								</div>
+								<img src="images/среда.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>	
+
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Четверг</a>
+								</div>
+								<img src="images/четверг.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>					
+						
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Пятница </a>
+								</div>
+								<img src="images/пятница.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>									
+
+							<div class='block_raspisanie full_width'>
+								<div class="name_film">
+									<a href="https://bspu.ru/files/22344">Суббота</a>
+								</div>
+								<img src="images/суббота.PNG" width='100%' alt="" class="border" />		
+								<div class="span_film">Опубликовано 25 апреля, 2018
+									
+								</div>							
+							</div>	
+							
+						</div>
+
+					</div>
+					<!-- end #content -->
+					<div id="sidebar" >
+						<h2>Студентам</h2>
+							<a href="стипендии.html" class='sidebar_link'>Стипендии</a>
+							<a href="расписание.html" class='sidebar_link sidebar_link_1'>Расписание</a>
+							<a href="спорт.html" class='sidebar_link'>Спорт</a>
+							<a href="культура.html" class='sidebar_link'>Культура</a>
+							<a href="наука.html" class='sidebar_link'>Наука</a>
+							<a href="добровольчество.html" class='sidebar_link'>Добровольчество</a>
+					</div>
+					<!-- end #sidebar -->
+					<div style="clear: both;">&nbsp;</div>
+					
+<div id="date"></div> 
+
+<script> 
+var now = new Date(); 
+function setDate() { 
+var anchor = new Date(2017, 7, 21); 
+return Math.round((now - anchor) / 1000 / 60 / 60/ 24/7); 
+} 
+function toSummer() { 
+var summer = new Date(2018, 5, 1); 
+return Math.round((summer-now) / 1000 / 60 / 60/ 24); 
+} 
+
+var elem = document.getElementById("date"); 
+elem.innerText = 'Сейчас ' + setDate() + ' неделя\nДней до лета: '+toSummer(); 
+</script>
+					
+		<!-- end #page -->
+		<div id="footer">
+			<p>&copy; Untitled. All rights reserved. Design by VADIM</a>.</p>
+		</div>
+		<!-- end #footer -->
+	</div>
+</div>
+</body>
+</html>
